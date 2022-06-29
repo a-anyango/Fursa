@@ -3,7 +3,7 @@
 $servername ="localhost";
 $username = "root";
 $password = "";
-$dbname = "codeflix";
+$dbname = "fursa";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 
@@ -14,11 +14,11 @@ if($conn->connect_error){
 $name = $_POST["name"];
 $email = $_POST["email"];
 $password = $_POST["password"];
-$salt = "codeflix";
+$salt = "securefursa";
 $password_encrypted = sha1($password.$salt);
 
 
-$sql = "INSERT INTO signup (name, email, password) 
+$sql = "INSERT INTO users (name, email, password) 
 VALUES ('$name', '$email', '$password_encrypted')";
 
 if($conn->query($sql) === TRUE){
