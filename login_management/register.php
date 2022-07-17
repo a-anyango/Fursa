@@ -69,8 +69,8 @@ if(isset($_POST['submit'])){
       <input type="password" name="password" placeholder="enter password" class="box" required>
       <input type="password" name="cpassword" placeholder="confirm password" class="box" required>
       <input type="file" name="image" class="box" accept="image/jpg, image/jpeg, image/png">
-      <input type="submit" name="submit" value="register now" class="btn">
-      <p>already have an account? <a href="login.php">login now</a></p>
+      <input type="submit" name="submit" value="Sign Up" class="btn">
+      <p>Already have an account? <a href="login.php">Sign In</a></p>
    </form>
 
 </div>
