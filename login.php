@@ -64,7 +64,7 @@ if(isset($_POST['submit'])){
          }
       }
       ?>
-      <input type="email" name="email" placeholder="johndoe@strathmore.edu" class="box" required>
+      <input type="email" name="email" placeholder="johndoe@strathmore.edu"class="box" required>
       <input type="password" name="password" placeholder="enter password" class="box" required>
       <input type="submit" name="submit" value="Sign In" class="btn">
       <p>Don't have an account? <a href="register.php">Sign Up</a></p>
