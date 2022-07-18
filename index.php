@@ -92,9 +92,5 @@
 		</div>
 		</div>
 	</section>
-	<!--End of Categories-->
-
-
-	<script src="./assets/main.js"></script>
 </body>
 </html>
