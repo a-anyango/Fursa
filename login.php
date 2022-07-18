@@ -31,12 +31,27 @@ if(isset($_POST['submit'])){
    <title>login</title>
 
    <!-- custom css file link  -->
-   <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="style.css">
 
 </head>
+
 <body>
-   
+
+<div class="dropdown">
+  <button class="dropbtn"><h4>FURSA</h4></button>
+  <div class="dropdown-content">
+         <ul class="nav__menu">
+            <li ><a href="index.php">Home</a></li>
+            <li ><a href="opportunities.php">Opportunities</a></li>
+            <li ><a href="contact.php">Contact</a></li>
+            <li ><a href="login.php">Login</a></li>
+         </ul>
+  </div>
+</div>
+
 <div class="form-container">
+     
+   
 
    <form action="" method="post" enctype="multipart/form-data">
       <h3>FURSA</h3>
