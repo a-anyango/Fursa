@@ -28,7 +28,7 @@
 }
 
 *::-webkit-scrollbar-thumb{
-   background-color: var(--blue);
+   background-color: #2e3267;
 }
 
 .btn,
@@ -45,7 +45,7 @@
 }
 
 .btn{
-   background-color: var(--blue);
+   background-color: #2e3267;
 }
 
 .btn:hover{
@@ -74,7 +74,7 @@
 
 .form-container{
    min-height: 100vh;
-   background-color: whitesmoke;
+   background-color: #2e3267;
    display: flex;
    align-items: center;
    justify-content: center;
@@ -241,7 +241,7 @@
 }
 
 .dropbtn {
-  background-color: #4CAF50;
+  background-color: #2e3267;
   color: white;
   padding: 10px;
   font-size: 16px;
@@ -277,5 +277,5 @@
 }
 
 .dropdown:hover .dropbtn {
-  background-color: #3e8e41;
+  background-color: #2980b9;
 }

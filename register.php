@@ -69,8 +69,8 @@ if(isset($_POST['submit'])){
 <div class="form-container">
       
    <form action="" method="post" enctype="multipart/form-data">
-      <h3>FURSA</h3>
-      <h2>Make most of your Strathmore Life</h2>
+     
+      <h3>Make most of your Strathmore Life</h3>
       <?php
       if(isset($message)){
          foreach($message as $message){

@@ -54,8 +54,8 @@ if(isset($_POST['submit'])){
    
 
    <form action="" method="post" enctype="multipart/form-data">
-      <h3>FURSA</h3>
-      <h2>Stay Updated in Strathmore</h2>
+      
+      <h3>Stay Updated in Strathmore</h3>
       
       <?php
       if(isset($message)){
