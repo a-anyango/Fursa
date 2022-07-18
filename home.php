@@ -25,10 +25,21 @@ if(isset($_GET['logout'])){
    <title>home</title>
 
     <!-- custom css file link  -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="style.css">
 
 </head>
 <body>
+   <div class="dropdown">
+  <button class="dropbtn"><h4>FURSA</h4></button>
+  <div class="dropdown-content">
+         <ul class="nav__menu">
+            <li ><a href="index.php">Home</a></li>
+            <li ><a href="opportunities.php">Opportunities</a></li>
+            <li ><a href="contact.php">Contact</a></li>
+            <li ><a href="login.php">Login</a></li>
+         </ul>
+  </div>
+</div>
    
 <div class="container">
 
@@ -44,7 +55,6 @@ if(isset($_GET['logout'])){
             echo '<img src="uploaded_img/'.$fetch['image'].'">';
          }
       ?>
-      <h3><?php echo $fetch['name']; ?></h3>
       <a href="update_profile.php" class="btn">update profile</a>
       <a href="home.php?logout=<?php echo $user_id; ?>" class="delete-btn">logout</a>
       <p>new <a href="login.php">login</a> or <a href="register.php">register</a></p>

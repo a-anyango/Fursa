@@ -4,7 +4,7 @@ include 'config.php';
 
 if(isset($_POST['submit'])){
 
-   $name = mysqli_real_escape_string($conn, $_POST['name']);
+  
    $email = mysqli_real_escape_string($conn, $_POST['email']);
    $pass = mysqli_real_escape_string($conn, md5($_POST['password']));
    $cpass = mysqli_real_escape_string($conn, md5($_POST['cpassword']));
@@ -23,7 +23,7 @@ if(isset($_POST['submit'])){
       }elseif($image_size > 2000000){
          $message[] = 'image size is too large!';
       }else{
-         $insert = mysqli_query($conn, "INSERT INTO `user_form`(name, email, password, image) VALUES('$name', '$email', '$pass', '$image')") or die('query failed');
+         $insert = mysqli_query($conn, "INSERT INTO `user_form`( email, password, image) VALUES('$email', '$pass', '$image')") or die('query failed');
 
          if($insert){
             move_uploaded_file($image_tmp_name, $image_folder);
@@ -48,15 +48,29 @@ if(isset($_POST['submit'])){
    <title>register</title>
 
    <!-- custom css file link  -->
-   <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="style.css">
 
 </head>
-<body>
-   
-<div class="form-container">
 
+<body>
+
+<div class="dropdown">
+  <button class="dropbtn"><h4>FURSA</h4></button>
+  <div class="dropdown-content">
+         <ul class="nav__menu">
+            <li ><a href="index.php">Home</a></li>
+            <li ><a href="opportunities.php">Opportunities</a></li>
+            <li ><a href="contact.php">Contact</a></li>
+            <li ><a href="login.php">Login</a></li>
+         </ul>
+  </div>
+</div>
+
+<div class="form-container">
+      
    <form action="" method="post" enctype="multipart/form-data">
-      <h3>register now</h3>
+     
+      <h3>Make most of your Strathmore Life</h3>
       <?php
       if(isset($message)){
          foreach($message as $message){
@@ -64,8 +78,8 @@ if(isset($_POST['submit'])){
          }
       }
       ?>
-      <input type="text" name="name" placeholder="enter username" class="box" required>
-      <input type="email" name="email" placeholder="enter email" class="box" required>
+      
+      <input type="email" name="email" placeholder="johndoe@strathmore.edu" class="box" required>
       <input type="password" name="password" placeholder="enter password" class="box" required>
       <input type="password" name="cpassword" placeholder="confirm password" class="box" required>
       <input type="file" name="image" class="box" accept="image/jpg, image/jpeg, image/png">

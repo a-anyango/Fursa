@@ -31,15 +31,32 @@ if(isset($_POST['submit'])){
    <title>login</title>
 
    <!-- custom css file link  -->
-   <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="style.css">
 
 </head>
+
 <body>
-   
+
+<div class="dropdown">
+  <button class="dropbtn"><h4>FURSA</h4></button>
+  <div class="dropdown-content">
+         <ul class="nav__menu">
+            <li ><a href="index.php">Home</a></li>
+            <li ><a href="opportunities.php">Opportunities</a></li>
+            <li ><a href="contact.php">Contact</a></li>
+            <li ><a href="login.php">Login</a></li>
+         </ul>
+  </div>
+</div>
+
 <div class="form-container">
+     
+   
 
    <form action="" method="post" enctype="multipart/form-data">
-      <h3>login now</h3>
+      
+      <h3>Stay Updated in Strathmore</h3>
+      
       <?php
       if(isset($message)){
          foreach($message as $message){
@@ -47,7 +64,7 @@ if(isset($_POST['submit'])){
          }
       }
       ?>
-      <input type="email" name="email" placeholder="enter email" class="box" required>
+      <input type="email" name="email" placeholder="johndoe@strathmore.edu" class="box" required>
       <input type="password" name="password" placeholder="enter password" class="box" required>
       <input type="submit" name="submit" value="Sign In" class="btn">
       <p>Don't have an account? <a href="register.php">Sign Up</a></p>

@@ -28,7 +28,7 @@
 }
 
 *::-webkit-scrollbar-thumb{
-   background-color: var(--blue);
+   background-color: #2e3267;
 }
 
 .btn,
@@ -45,7 +45,7 @@
 }
 
 .btn{
-   background-color: var(--blue);
+   background-color: #2e3267;
 }
 
 .btn:hover{
@@ -71,9 +71,10 @@
    font-size: 20px;
 }
 
+
 .form-container{
-   min-height: 400vh;
-   background-color: var(--light-bg);
+   min-height: 100vh;
+   background-color: #2e3267;
    display: flex;
    align-items: center;
    justify-content: center;
@@ -94,6 +95,13 @@
    font-size: 30px;
    color:var(--black);
    text-transform: uppercase;
+}
+.form-container form h2{
+   margin-bottom: 10px;
+   font-size: 15px;
+   color:var(--black);
+   text-transform: lowercase;
+   font-family: monospace;
 }
 
 .form-container form .box{
@@ -230,4 +238,44 @@
    .update-profile form .flex .inputBox{
       width: 100%;
    }
+}
+
+.dropbtn {
+  background-color: #2e3267;
+  color: white;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #2980b9;
 }
