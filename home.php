@@ -55,7 +55,6 @@ if(isset($_GET['logout'])){
             echo '<img src="uploaded_img/'.$fetch['image'].'">';
          }
       ?>
-      <h3><?php echo $fetch['name']; ?></h3>
       <a href="update_profile.php" class="btn">update profile</a>
       <a href="home.php?logout=<?php echo $user_id; ?>" class="delete-btn">logout</a>
       <p>new <a href="login.php">login</a> or <a href="register.php">register</a></p>
