@@ -91,6 +91,7 @@
 		</div>
 		</div>
 	</section>
+<<<<<<< HEAD:index.html
 	<!--End of Categories-->
 
 
@@ -204,5 +205,7 @@
 
 
 	<script src="./assets/main.js"></script>
+=======
+>>>>>>> 13e4b9588c8a632789f2e690d7001b02fdc50f56:index.php
 </body>
 </html>
