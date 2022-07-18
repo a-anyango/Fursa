@@ -72,8 +72,8 @@
 }
 
 .form-container{
-   min-height: 400vh;
-   background-color: var(--light-bg);
+   min-height: 100vh;
+   background-color: deepskyblue;
    display: flex;
    align-items: center;
    justify-content: center;
@@ -94,6 +94,13 @@
    font-size: 30px;
    color:var(--black);
    text-transform: uppercase;
+}
+.form-container form h2{
+   margin-bottom: 10px;
+   font-size: 15px;
+   color:var(--black);
+   text-transform: lowercase;
+   font-family: monospace;
 }
 
 .form-container form .box{
