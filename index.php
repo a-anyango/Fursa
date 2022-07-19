@@ -91,7 +91,7 @@
 		</div>
 		</div>
 	</section>
-<<<<<<< HEAD:index.html
+
 	<!--End of Categories-->
 
 
@@ -174,7 +174,7 @@
 					<li><a href="contact.php">Contact</a></li>
 				</ul>
 			</div>
-			<div class="sec contact">
+			<div class="sec contact__footer">
 				<h2>Contact Us</h2>
 				<ul class="info">
 					<li>
@@ -205,7 +205,5 @@
 
 
 	<script src="./assets/main.js"></script>
-=======
->>>>>>> 13e4b9588c8a632789f2e690d7001b02fdc50f56:index.php
 </body>
 </html>
