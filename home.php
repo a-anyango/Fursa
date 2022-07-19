@@ -25,7 +25,7 @@ if(isset($_GET['logout'])){
    <title>home</title>
 
     <!-- custom css file link  -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./assets/css/login.css">
 
 </head>
 <body>
@@ -36,7 +36,7 @@ if(isset($_GET['logout'])){
             <li ><a href="index.php">Home</a></li>
             <li ><a href="opportunities.php">Opportunities</a></li>
             <li ><a href="contact.php">Contact</a></li>
-            <li ><a href="login.php">Login</a></li>
+             <li ><a href="login.php">Login</a></li>
          </ul>
   </div>
 </div>
