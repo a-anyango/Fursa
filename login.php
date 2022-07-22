@@ -32,22 +32,27 @@ if(isset($_POST['submit'])){
 
    <!-- custom css file link  -->
    <link rel="stylesheet" href="./assets/css/login.css">
+   <link rel="stylesheet" href="./assets/css/style.css">
 
 </head>
 
 <body>
 
-<div class="dropdown">
-  <button class="dropbtn"><h4>FURSA</h4></button>
-  <div class="dropdown-content">
-         <ul class="nav__menu">
-            <li ><a href="index.php">Home</a></li>
-            <li ><a href="opportunities.php">Opportunities</a></li>
-            <li ><a href="contact.php">Contact</a></li>
-            <li ><a href="login.php">Login</a></li>
-         </ul>
-  </div>
-</div>
+	<!--Navbar-->
+	<nav>
+		<div class="container nav__container">
+			<a href="index.php"> <h4>FURSA</h4></a>
+			<ul class="nav__menu">
+				<li ><a href="index.php">Home</a></li>
+				<li ><a href="opportunities.php">Opportunities</a></li>
+				<li ><a href="contact.php">Contact</a></li>
+				<li ><a href="login.php">Login</a></li>
+			</ul>
+			<button id="open-menu-btn"><i class="uil uil-bars"></i></button>
+			<button id="close-menu-btn"><i class="uil uil-multiply"></i></button>
+		</div>
+	</nav>
+	<!--End of Navbar-->
 
 <div class="form-container">
      
@@ -73,6 +78,6 @@ if(isset($_POST['submit'])){
 </div>
 
 
-
+<script src="./assets/main.js"></script>
 </body>
 </html>

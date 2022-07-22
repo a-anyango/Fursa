@@ -88,7 +88,7 @@
 						<li><a href="contact.php">Contact</a></li>
 					</ul>
 				</div>
-				<div class="sec contact_footer">
+				<div class="sec contact__footer">
 					<h2>Contact Us</h2>
 					<ul class="info">
 						<li>
