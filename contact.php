@@ -106,8 +106,7 @@
 						</li>
 						<li>
 							<span><i class="uil uil-envelope"></i></span>
-							<p><a href="mailto:agnes.otieno@strathmore.edu">agnes.otieno@strathmore.edu</a><br>
-								<a href="mailto:frankline.otieno@strathmore.edu">frankline.otieno@strathmore.edu</a><br></p>
+							<p><a href="mailto:fursastrath@gmail.com">fursastrath@gmail.com</a><br></p>
 						</li>
 					</ul>
 				</div>
