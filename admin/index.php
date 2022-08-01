@@ -118,6 +118,7 @@ $posts = mysqli_query($connection, $query);
                 </table>
             <?php else : ?>
                 <div class="alert__message error"><?= "No posts found" ?></div>
+               
             <?php endif ?>
         </main>
     </div>
