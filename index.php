@@ -28,12 +28,13 @@ include 'partials/header.php';
 		</div>
 	</nav>
 	End of Navbar-->
+
 <!--Header-->
 	<header>
 		<div class="container header__container">
 			<div class="header__left">
 				<h1>Select Your Interests to Advance your career</h1>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				<p>Welcome to Fursa, where you can access career development opportunities that are relevant to you by customizing your feed in the opportunities tab!</p>
 				<a href="opportunities.php" class="btn btn-primary">Get Started</a>
 			</div>
 			
@@ -52,45 +53,44 @@ include 'partials/header.php';
 			<div class="categories__left">
 				<h1>Categories</h1>
 				<p>
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, consequuntur. Voluptas quisquam at, perferendis similique vel rem animi eius dignissimos vitae asperiores! Reprehenderit nulla reiciendis debitis! Incidunt error tenetur voluptatibus?
-				</p>
+					Explore the available categories and learn about exciting career development opportunities in your are of interest! Simply customize your feed in the opportunities tab by selecting the categories you would like to view at the bottom of the page!
 				<a href="#" class="btn">Learn More</a>
 			</div>
 		<div class="categories__right">
 			<article class="category">
 				<span class="category__icon"><i class="uil uil-dollar-sign-alt"></i></span>
 				<h5>Finance and Business</h5>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+				<p>Access career development opportunities in Finance and Business</p>
 			</article>
 
 			<article class="category">
 				<span class="category__icon"><i class="uil uil-processor"></i></span>
 				<h5>IT and Engineering</h5>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+				<p>Access career development opportunities in IT and Engineering</p>
 			</article>
 
 			<article class="category">
 				<span class="category__icon"><i class="uil uil-glass-martini-alt"></i></span>
 				<h5>Hospitality</h5>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+				<p>Access career development Opportunities in Hospitality</p>
 			</article>
 
 			<article class="category">
 				<span class="category__icon"><i class="uil uil-file-copy-alt"></i></span>
 				<h5>Communications</h5>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+				<p>Access career development opportunities in communications</p>
 			</article>
 
 			<article class="category">
 				<span class="category__icon"><i class="uil uil-dumbbell"></i></span>
 				<h5>Sports</h5>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+				<p>Access career development opportunities within sports.</p>
 			</article>
 
 			<article class="category">
 				<span class="category__icon"><i class="uil uil-film"></i></span>
 				<h5>Creative Arts</h5>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+				<p>Access career development opportunities for creatives.</p>
 			</article>
 		</div>
 		</div>
@@ -108,7 +108,7 @@ include 'partials/header.php';
 				<div class="question__answer">
 					<h4>What kind of career development opportunities are available on Fursa?</h4>
 					<p>
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, animi? Doloribus excepturi neque tempora perspiciatis aspernatur a optio deleniti molestias placeat. Veniam esse enim, ut et quae ab porro voluptate!
+						Opportunities that are available include internships, job applications, bootcamps, training sessions, networking events and more.
 					</p>
 				</div>
 			</article>
@@ -117,7 +117,7 @@ include 'partials/header.php';
 				<div class="question__answer">
 					<h4>Can all University students use Fursa to access opportunities?</h4>
 					<p>
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, animi? Doloribus excepturi neque tempora perspiciatis aspernatur a optio deleniti molestias placeat. Veniam esse enim, ut et quae ab porro voluptate!
+						At the moment, the use of the Fursa web application is limited to Strathmore students.
 					</p>
 				</div>
 			</article>
@@ -126,7 +126,7 @@ include 'partials/header.php';
 				<div class="question__answer">
 					<h4>Can anyone share relevant career development opportunities on Fursa?</h4>
 					<p>
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, animi? Doloribus excepturi neque tempora perspiciatis aspernatur a optio deleniti molestias placeat. Veniam esse enim, ut et quae ab porro voluptate!
+						To maintain the authenticity of opportunities posted on the platform, only those with admin rights are able to upload, edit and delete opportunities. The contact tab may be used to inform the admins of new opportunities.
 					</p>
 				</div>
 			</article>
@@ -135,7 +135,7 @@ include 'partials/header.php';
 				<div class="question__answer">
 					<h4>How do I customize the opportunities displayed to me?</h4>
 					<p>
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, animi? Doloribus excepturi neque tempora perspiciatis aspernatur a optio deleniti molestias placeat. Veniam esse enim, ut et quae ab porro voluptate!
+						You may customize the opportunities displayed to you by going to the opportunities tab, scrolling to the bottom and selecting the opportunity categories you would like to access.
 					</p>
 				</div>
 			</article>
@@ -144,7 +144,7 @@ include 'partials/header.php';
 				<div class="question__answer">
 					<h4>Are all the opportunities posted on Fursa free to access?</h4>
 					<p>
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, animi? Doloribus excepturi neque tempora perspiciatis aspernatur a optio deleniti molestias placeat. Veniam esse enim, ut et quae ab porro voluptate!
+						Fursa displays opportunities that are relevant to students within Strathmore and this may include paid events, training sessions and bootcamps.
 					</p>
 				</div>
 			</article>
@@ -153,7 +153,7 @@ include 'partials/header.php';
 				<div class="question__answer">
 					<h4>Does Fursa also handle registration and payment for opportunities posted?</h4>
 					<p>
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, animi? Doloribus excepturi neque tempora perspiciatis aspernatur a optio deleniti molestias placeat. Veniam esse enim, ut et quae ab porro voluptate!
+						No, Fursa does not handle registration and payment (where necessary) for opportunities posted. Opportunities are shared with the relevant application links and payment information where applicable.
 					</p>
 				</div>
 			</article>
@@ -167,7 +167,7 @@ include 'partials/header.php';
 		<div class="container">
 			<div class="sec about__us">
 				<h2>About Us</h2>
-				<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat, tempore. Architecto quo obcaecati saepe a aspernatur libero fugit itaque placeat inventore, minima odio dolores ipsa. Illum laborum adipisci est nihil.</p>
+				<p>Fursa is a web application created to provide students within Strathmore University with access to career development opportunities. The platform allows users to customize their feed in the opportunities tab to access opportunities that are relevant to them.</p>
 			</div>
 			<div class="sec quicklinks">
 				<h2>Quick Links</h2>

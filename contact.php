@@ -23,7 +23,7 @@ include 'partials/header.php';
 				</div>
 				<h2>Contact Us</h2>
 				<p>
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias itaque maiores eveniet.
+					Experiencing issues? Feel free to contact us!
 				</p>
 				<ul class="contact__details">
 					<li>
@@ -32,7 +32,7 @@ include 'partials/header.php';
 					</li>
 					<li>
 						<i class="uil uil-envelope"></i>
-						<h5>fursa@gmail.com</h5>
+						<h5>fursastrath@gmail.com</h5>
 					</li>
 					<li>
 						<i class="uil uil-location-point"></i>
