@@ -15,6 +15,25 @@ include 'partials/header.php';
 
 </head>
 <body>
+<<<<<<< HEAD
+=======
+	<!--Navbar-->
+	<nav>
+		<div class="container nav__container">
+			<a href="index.php"> <h4>FURSA</h4></a>
+			<ul class="nav__menu">
+				<li ><a href="index.php">Home</a></li>
+				<li ><a href="opportunities.php">Opportunities</a></li>
+				<li ><a href="contact.php">Contact</a></li>
+				 <li ><a href="signin.php">Login</a></li>
+			</ul>
+			<button id="open-menu-btn"><i class="uil uil-bars"></i></button>
+			<button id="close-menu-btn"><i class="uil uil-multiply"></i></button>
+		</div>
+	</nav>
+	<!--End of Navbar-->
+
+>>>>>>> 7d8d165dd76279edbe563d48b0ce0ee09ef0cb8b
 	<section class="contact">
 		<div class="container contact__container">
 			<aside class="contact__aside">
