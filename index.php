@@ -1,3 +1,7 @@
+<?php
+include 'partials/header.php';
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -9,7 +13,7 @@
 	<link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
-	<!--Navbar-->
+	<!--Navbar-
 	<nav>
 		<div class="container nav__container">
 			<a href="index.php"> <h4>FURSA</h4></a>
@@ -23,7 +27,7 @@
 			<button id="close-menu-btn"><i class="uil uil-multiply"></i></button>
 		</div>
 	</nav>
-	<!--End of Navbar-->
+	End of Navbar-->
 <!--Header-->
 	<header>
 		<div class="container header__container">

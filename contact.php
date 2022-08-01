@@ -1,3 +1,7 @@
+<?php
+include 'partials/header.php';
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -11,22 +15,6 @@
 
 </head>
 <body>
-	<!--Navbar-->
-	<nav>
-		<div class="container nav__container">
-			<a href="index.php"> <h4>FURSA</h4></a>
-			<ul class="nav__menu">
-				<li ><a href="index.php">Home</a></li>
-				<li ><a href="opportunities.php">Opportunities</a></li>
-				<li ><a href="contaCT.php">Contact</a></li>
-				 <li ><a href="signin.php">Login</a></li>
-			</ul>
-			<button id="open-menu-btn"><i class="uil uil-bars"></i></button>
-			<button id="close-menu-btn"><i class="uil uil-multiply"></i></button>
-		</div>
-	</nav>
-	<!--End of Navbar-->
-
 	<section class="contact">
 		<div class="container contact__container">
 			<aside class="contact__aside">
