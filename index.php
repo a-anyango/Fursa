@@ -35,7 +35,7 @@ include 'partials/header.php';
 			<div class="header__left">
 				<h1>Select Your Interests to Advance your career</h1>
 				<p>Welcome to Fursa, where you can access career development opportunities that are relevant to you by customizing your feed in the opportunities tab!</p>
-				<a href="opportunities.php" class="btn btn-primary">Get Started</a>
+				<a href="signin.php" class="btn btn-primary">Get Started</a>
 			</div>
 			
 			<div class="header__right">
@@ -54,7 +54,7 @@ include 'partials/header.php';
 				<h1>Categories</h1>
 				<p>
 					Explore the available categories and learn about exciting career development opportunities in your are of interest! Simply customize your feed in the opportunities tab by selecting the categories you would like to view at the bottom of the page!
-				<a href="#" class="btn">Learn More</a>
+				<a href="opportunities.php" class="btn">View More</a>
 			</div>
 		<div class="categories__right">
 			<article class="category">
