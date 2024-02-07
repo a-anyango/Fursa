@@ -1,4 +1,4 @@
-# University Career Services Notification System
+# Fursa - University Career Services Notification System
 
 ## Overview
 
@@ -26,11 +26,11 @@ To launch the application locally using XAMPP:
 2. Clone the repository into the `htdocs` folder of your XAMPP installation.
 
     ```bash
-    git clone https://github.com/your-username/university-career-services.git
+    git clone https://github.com/a-anyango/fursa.git
     ```
 
 3. Start the Apache and MySQL servers using the XAMPP control panel.
-4. Open your web browser and navigate to `http://localhost/university-career-services`.
+4. Open your web browser and navigate to `http://localhost/fursa`.
 
 ## Database Setup
 
